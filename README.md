@@ -16,5 +16,10 @@ op: ss
     dd
     ee
     rr
-    
+
+*********
+string = "prabuddha"  # define the string
+
+for index, char in enumerate(string, start=1):  # loop through string with index starting from 1
+    print(char * index)  # repeat the character 'index' times and print it
 
