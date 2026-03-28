@@ -17,7 +17,7 @@ op: ss
     ee
     rr
 
-*********
+**********************************************************************************************************
 string = "prabuddha"  # define the string
 
 for index, char in enumerate(string, start=1):  # loop through string with index starting from 1
@@ -34,5 +34,17 @@ for index, num in enumerate(M):  # loop through list getting index and value
 29 is in 2th index
 77 is in 3th index
 874 is in 4th index
+-----------------------------------------------------------------------------------------------------------
+#printing multiplication of 2 using while loop
+i=2
+t=1
+while t<=10:
+    print(i*t)
+    t=t+1
+    
+# printing multiplication of 2 using for loop
 
+for i in range(2,22,2):
+    print(i,end=" ")
+   
 
